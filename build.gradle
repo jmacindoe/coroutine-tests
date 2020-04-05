@@ -17,7 +17,35 @@ repositories {
     mavenCentral()
 }
 
+// Use Spek for tests
+test {
+    useJUnitPlatform {
+        includeEngines 'spek2'
+    }
+}
+
+ext {
+    spek_version = '2.0.9'
+}
+
 dependencies {
+    // Kotlin stdlib
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    // Kotlin JUnit
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+
+    // Spek
+    testImplementation "org.spekframework.spek2:spek-dsl-jvm:$spek_version"
+    testRuntimeOnly "org.spekframework.spek2:spek-runner-junit5:$spek_version"
+
+    // Required for Spek
+    testRuntimeOnly "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+}
+
+
+
+dependencies {
 }
 

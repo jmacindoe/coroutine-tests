@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="696618cf-4a90-4228-9bea-73e5f24cdb4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coroutine-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coroutine-tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a6xoA0sc2hfGMz0jOOWkmF15Ik" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,7 +53,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spek 2 - JVM.Spek: .MainTest">
     <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="coroutine-tests" />
       <option name="VM_PARAMETERS" />
@@ -69,8 +75,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spek: .MainTest" type="org.spekframework.spek2-jvm" factoryName="Spek 2 - JVM" temporary="true" nameIsGenerated="true">
+      <module name="coroutine-tests.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="programParameters" value="" />
+      <option name="path" value="TWFpblRlc3Q=" />
+      <option name="generatedNameHint" value="CLASS" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Spek 2 - JVM.Spek: .MainTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spek 2 - JVM.Spek: .MainTest" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -93,14 +118,30 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="535" y="202" key="#Aoo/0.23.1680.1027@0.23.1680.1027" timestamp="1586070222621" />
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586080261207">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586080719437">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586080261207" />
-    <state x="577" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586070204599">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586080719437" />
+    <state x="577" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586080718554">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="577" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586070204599" />
+    <state x="577" y="327" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586080718554" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1586081468622">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1586081468622" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1586081468621">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1586081468621" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1586081468621">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1586081468621" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1586081468622">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1586081468622" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1586070142971">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -109,5 +150,13 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586070155884" />
+    <state x="217" y="263" key="new project wizard" timestamp="1586080889856">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="217" y="263" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1586080889856" />
+    <state x="619" y="270" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1586080811419">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="619" y="270" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586080811419" />
   </component>
 </project>
